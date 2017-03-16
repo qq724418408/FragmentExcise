@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/text_large_black"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/activity_view_pager_title" />
+
+    <Button
+        android:id="@id/id_btn_simple_view_pager"
+        style="@style/button_blue_text_white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_button"
+        android:text="@string/btn_simple_view_pager" />
+
+    <Button
+        android:id="@id/id_btn_title_strip_view_pager"
+        style="@style/button_blue_text_white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_button"
+        android:text="@string/btn_title_strip_view_pager" />
+
+    <Button
+        android:id="@id/id_btn_tab_strip_view_pager"
+        style="@style/button_blue_text_white"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/selector_button"
+        android:text="@string/btn_tab_strip_view_pager" />
+
+</LinearLayout>

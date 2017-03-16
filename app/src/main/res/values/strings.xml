@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string name="home">首页</string>
+    <string name="product">产品</string>
+    <string name="cart">购物车</string>
+    <string name="personal">我</string>
+    <string name="common_prompt">提示</string>
+    <string name="activity_title">练习</string>
+    <string name="activity_view_pager_title">ViewPager练习</string>
+    <string name="activity_simple_view_pager_title">普通的ViewPager</string>
+    <string name="activity_title_view_pager_title">TitleStripViewPager</string>
+    <string name="activity_tab_view_pager_title">TabStripViewPager</string>
+    <string name="tv_view_pager_1">第一个ViewPager</string>
+    <string name="tv_view_pager_2">第二个ViewPager</string>
+    <string name="tv_view_pager_3">第三个ViewPager</string>
+    <string name="tv_view_pager_4">第四个ViewPager</string>
+    <string name="btn_simple_view_pager">普通ViewPager</string>
+    <string name="btn_title_strip_view_pager">TitleStripViewPager</string>
+    <string name="btn_tab_strip_view_pager">TabStripViewPager</string>
+    <string name="activity_home_title">主页面</string>
+    <string name="activity_tv_name">请输入账号</string>
+    <string name="activity_home_name">账号：</string>
+    <string name="activity_home_pwd">密码：</string>
+    <string name="activity_home_age">年龄：</string>
+    <string name="activity_tv_password">请输入密码</string>
+    <string name="activity_btn_next">next</string>
+    <string name="activity_btn_login">登录</string>
+    <string name="activity_home_eventbus_btn">EventBus登录</string>
+    <string name="activity_btn_logout">注销</string>
+    <string name="activity_btn_network_change_listener">监听网络变化</string>
+    <string name="activity_main_btn_static_register">静态注册广播</string>
+    <string name="activity_main_btn_dynamic_register">动态注册广播</string>
+    <string name="activity_main_btn_broadcast">同步广播</string>
+    <string name="activity_main_btn_order_broadcast">有序广播</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_title_bar_title">标题</string>
+</resources>

@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/blueDark">
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/tab_item_bottom"
+            android:drawableTop="@drawable/selector_tab_home_button"
+            android:text="@string/home" />
+
+        <RadioButton
+            style="@style/tab_item_bottom"
+            android:drawableTop="@drawable/selector_tab_product_button"
+            android:text="@string/product" />
+
+        <RadioButton
+            style="@style/tab_item_bottom"
+            android:drawableTop="@drawable/selector_tab_cart_button"
+            android:text="@string/cart" />
+
+        <RadioButton
+            style="@style/tab_item_bottom"
+            android:drawableTop="@drawable/selector_tab_personal_button"
+            android:text="@string/personal" />
+    </RadioGroup>
+</FrameLayout>

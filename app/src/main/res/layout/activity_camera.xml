@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blueDark"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:id="@+id/btn_album"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/selector_gift" />
+
+        <TextView
+            style="@style/text_large_white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/fragment_title_bar_title" />
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:background="@drawable/selector_camera" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+</LinearLayout>

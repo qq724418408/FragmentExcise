@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wjl.forms.com.fragmentexcise.activity.SnackBarActivity">
+
+    <Button
+        android:id="@+id/btn_snack_bar"
+        style="@style/text_large_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_button"
+        android:text="SnackBar" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/cdl_snack_bar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom|right"
+        android:layout_height="wrap_content" />
+</LinearLayout>

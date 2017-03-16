@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="id_tv_view_pager">false</item>
+    <item type="id" name="id_tv_view_pager_1">false</item>
+    <item type="id" name="id_tv_view_pager_2">false</item>
+    <item type="id" name="id_tv_view_pager_3">false</item>
+    <item type="id" name="id_tv_view_pager_4">false</item>
+    <item type="id" name="id_btn_simple_view_pager">false</item>
+    <item type="id" name="id_btn_title_strip_view_pager">false</item>
+    <item type="id" name="id_btn_tab_strip_view_pager">false</item>
+    <item type="id" name="activity_broadcast">false</item>
+    <item type="id" name="activity_home_llt">false</item>
+    <item type="id" name="activity_btn_next">false</item>
+    <item type="id" name="activity_btn_login">false</item>
+    <item type="id" name="activity_btn_logout">false</item>
+    <item type="id" name="activity_home_btn">false</item>
+    <item type="id" name="activity_home_eventbus_btn">false</item>
+    <item type="id" name="activity_tv_name">false</item>
+    <item type="id" name="activity_tv_age">false</item>
+    <item type="id" name="activity_tv_password">false</item>
+    <item type="id" name="activity_et_name">false</item>
+    <item type="id" name="activity_et_password">false</item>
+    <item type="id" name="activity_main_btn_dynamic_register">false</item>
+    <item type="id" name="activity_main_btn_network_change_listener">false</item>
+    <item type="id" name="activity_main_btn_static_register">false</item>
+    <item type="id" name="activity_main_btn_order_broadcast">false</item>
+</resources>
